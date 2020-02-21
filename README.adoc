@@ -1,0 +1,26 @@
+= cmake_configure_version_header
+Jordan Williams
+
+== Summary
+
+An example of how to populate a header file with the project's version numbers using CMake.
+
+== Configure
+
+Just create a build directory and configure the CMake project.
+[source,console]
+----
+mkdir build
+cd build
+cmake ..
+----
+
+This will generate the version header.
+
+== License
+
+This project is licensed under the link:./LICENSE[Apache 2.0 License].
+
+== Authors
+
+{author}
